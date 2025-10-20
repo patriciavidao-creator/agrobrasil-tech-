@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-600: #1B7F5D;
+  --brand-500: #2BAA7C;
+  --brand-400: #51C29A;
+  --earth-600: #5A4633;
+  --bg-950: #0B1210;
+  --bg-50: #F6FBF8;
+  --text-900: #0E1A16;
+  --accent-amber: #E7B008;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg-50);
+  color: var(--text-900);
+}
